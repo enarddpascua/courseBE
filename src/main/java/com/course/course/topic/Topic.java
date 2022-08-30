@@ -10,6 +10,7 @@ public class Topic {
     private String id;
     private String topic;
     private String description;
+    private String thumbnailURL;
 
 
     public Topic(){}
@@ -41,6 +42,14 @@ public class Topic {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getThumbnailURL(){
+        return this.thumbnailURL;
+    }
+
+    public void setThumbnailURL(String thumbnailURL){
+        this.thumbnailURL= thumbnailURL;
     }
 
 
