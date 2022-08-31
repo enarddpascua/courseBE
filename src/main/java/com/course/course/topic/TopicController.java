@@ -17,7 +17,7 @@ public class TopicController {
     @Autowired
     private TopicService topicService;
 
-    @CrossOrigin(origins = "http://localhost:3000")
+    @CrossOrigin(origins = "https://master.d3u5hyoylqkyp5.amplifyapp.com/")
     @RequestMapping("/topics")
     public List<Topic> getAllTopics(){
         return topicService.getAllTopics();
